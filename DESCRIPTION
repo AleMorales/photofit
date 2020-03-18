@@ -1,0 +1,17 @@
+Package: photofit
+Type: Package
+Title: Estimate parameters from photosynthesis curves
+Version: 0.0.1
+Author: Alejandro Morales Sierra
+Maintainer: Alejandro Morales Sierra <morales.s.alejandro@gmail.com>
+Description: Estimate different parameters from photosynthetic response curves 
+  using Bayesian methods. Different photosynthetic models and types of photosynthetic
+  curves are supported.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Imports: magrittr, purrr, furrr, future, mvnfast, GGally, numDeriv, distros
+Remotes:  
+    AleMorales/distros
+
